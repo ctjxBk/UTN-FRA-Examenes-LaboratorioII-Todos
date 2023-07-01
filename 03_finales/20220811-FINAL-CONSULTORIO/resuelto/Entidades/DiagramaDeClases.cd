@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Entidades.Models.Consultorio&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EQAAEAAgAAAAAACAAIEAgQAIgAACAAAAAAABgAAAAAA=</HashCode>
+      <FileName>Models\Consultorio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Models.Paciente" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAQAAAAAEgAAAAAAAAAAAgAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Paciente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Exceptions.DataBaseManagerException">
+    <Position X="4.75" Y="7.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DataBaseManagerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Exceptions.FileManagerException">
+    <Position X="9.75" Y="5.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\FileManagerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Files.FileManager">
+    <Position X="5.75" Y="6.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>File\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.DataBase.DataBaseManager">
+    <Position X="4" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DataBase\DataBaseManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Models.Persona">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAQAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Extension.StringExtension">
+    <Position X="0.5" Y="5.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extension\StringExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Entidades.Interfaces.IPaciente">
+    <Position X="0.5" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Interfaces\IPaciente.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Entidades.Models.DelegadoDemoraAtencion">
+    <Position X="3.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Consultorio.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Entidades.Models.DelegadoNuevoIngreso">
+    <Position X="3.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Consultorio.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
